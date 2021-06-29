@@ -55,25 +55,25 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/src/static/img/index" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="ts.external.directory.path" value="D:\JetBrains\WebStorm 2020.2.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\JetBrains\WebstormProjects\ChatRoom\web\src\static\img\index" />
-      <recent name="D:\JetBrains\WebstormProjects\ChatRoom\server\data\user" />
-      <recent name="D:\JetBrains\WebstormProjects\ChatRoom\web\src\static\img\common" />
-      <recent name="D:\JetBrains\WebstormProjects\ChatRoom\web\src\static\img\userDetail" />
-      <recent name="D:\JetBrains\WebstormProjects\ChatRoom\web\src\static\img" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\JetBrains\WebstormProjects\ChatRoom\web\src\static\img\search" />
       <recent name="D:\JetBrains\WebstormProjects\ChatRoom\font-web\src\static\img" />
       <recent name="D:\JetBrains\WebstormProjects\ChatRoom\font-web\src\static\img\index" />
       <recent name="D:\JetBrains\WebstormProjects\ChatRoom\server\server" />
       <recent name="D:\JetBrains\WebstormProjects\ChatRoom\server\utils" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\JetBrains\WebstormProjects\ChatRoom" />
+      <recent name="D:\JetBrains\WebstormProjects\ChatRoom\web\src\static\img\index" />
+      <recent name="D:\JetBrains\WebstormProjects\ChatRoom\server\data\user" />
+      <recent name="D:\JetBrains\WebstormProjects\ChatRoom\web\src\static\img\common" />
+      <recent name="D:\JetBrains\WebstormProjects\ChatRoom\web\src\static\img\userDetail" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -120,6 +120,7 @@
       <workItem from="1624599445365" duration="5595000" />
       <workItem from="1624840789474" duration="15527000" />
       <workItem from="1624926962938" duration="14449000" />
+      <workItem from="1624955821697" duration="542000" />
     </task>
     <servers />
   </component>
