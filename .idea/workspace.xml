@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="67837c52-4541-43db-a839-b55a3175e7d4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/web/src/commons/js/datas.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/commons/js/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/static/img/index/apply.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/static/img/index/refresh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/static/img/index/tip_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/static/img/nier.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/static/img/search/search.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/web/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/web/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/pages.json" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/pages.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/pages/index/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/pages/index/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/static/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/uni.scss" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/uni.scss" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Vue Single File Component" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/web" />
+  </component>
+  <component name="ProjectId" id="1rpLfnYoq1aXNFR700UI0UrK07K" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/src/static/img/index" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="D:\JetBrains\WebStorm 2020.2.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\JetBrains\WebstormProjects\ChatRoom\web\src\static\img\index" />
+      <recent name="D:\JetBrains\WebstormProjects\ChatRoom\server\data\user" />
+      <recent name="D:\JetBrains\WebstormProjects\ChatRoom\web\src\static\img\common" />
+      <recent name="D:\JetBrains\WebstormProjects\ChatRoom\web\src\static\img\userDetail" />
+      <recent name="D:\JetBrains\WebstormProjects\ChatRoom\web\src\static\img" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\JetBrains\WebstormProjects\ChatRoom\web\src\static\img\search" />
+      <recent name="D:\JetBrains\WebstormProjects\ChatRoom\font-web\src\static\img" />
+      <recent name="D:\JetBrains\WebstormProjects\ChatRoom\font-web\src\static\img\index" />
+      <recent name="D:\JetBrains\WebstormProjects\ChatRoom\server\server" />
+      <recent name="D:\JetBrains\WebstormProjects\ChatRoom\server\utils" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="67837c52-4541-43db-a839-b55a3175e7d4" name="Default Changelist" comment="" />
+      <created>1619668189877</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1619668189877</updated>
+      <workItem from="1619668190918" duration="9565000" />
+      <workItem from="1619742899102" duration="21671000" />
+      <workItem from="1620261099227" duration="23036000" />
+      <workItem from="1620347804202" duration="823000" />
+      <workItem from="1620439298171" duration="16015000" />
+      <workItem from="1620957693478" duration="13704000" />
+      <workItem from="1621211737102" duration="20343000" />
+      <workItem from="1621298132283" duration="4750000" />
+      <workItem from="1621304278494" duration="637000" />
+      <workItem from="1621305040044" duration="5183000" />
+      <workItem from="1621318235210" duration="13586000" />
+      <workItem from="1621384255089" duration="6714000" />
+      <workItem from="1621470586989" duration="617000" />
+      <workItem from="1621471237864" duration="11157000" />
+      <workItem from="1621557955400" duration="19000" />
+      <workItem from="1621816123656" duration="4000" />
+      <workItem from="1621903289769" duration="18000" />
+      <workItem from="1621989819188" duration="980000" />
+      <workItem from="1621994456824" duration="33000" />
+      <workItem from="1622075257153" duration="4000" />
+      <workItem from="1622447145856" duration="4350000" />
+      <workItem from="1622525226412" duration="10716000" />
+      <workItem from="1622594020558" duration="20794000" />
+      <workItem from="1622680337229" duration="18317000" />
+      <workItem from="1622767844215" duration="17439000" />
+      <workItem from="1623033686300" duration="15572000" />
+      <workItem from="1623114749038" duration="4446000" />
+      <workItem from="1624235395949" duration="1784000" />
+      <workItem from="1624254813787" duration="10174000" />
+      <workItem from="1624322985826" duration="13234000" />
+      <workItem from="1624408633235" duration="16075000" />
+      <workItem from="1624495772834" duration="14276000" />
+      <workItem from="1624581440840" duration="595000" />
+      <workItem from="1624599445365" duration="5595000" />
+      <workItem from="1624840789474" duration="15527000" />
+      <workItem from="1624926962938" duration="14449000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1621391561443">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1621391561443" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1621305361854">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1621305361854" />
+    <state x="662" y="252" width="596" height="536" key="find.popup" timestamp="1624413009043">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="662" y="252" width="596" height="536" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1624413009043" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1622778583954">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1622778583954" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1621240797175">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1621240797175" />
+  </component>
+</project>

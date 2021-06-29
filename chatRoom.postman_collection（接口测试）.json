@@ -1,0 +1,749 @@
+{
+	"info": {
+		"_postman_id": "b8f0677f-4f72-4c66-8c0f-0995ca115bd3",
+		"name": "chatRoom",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "sign",
+			"item": [
+				{
+					"name": "用户注册",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "mail",
+									"value": "test@qq.com",
+									"type": "text"
+								},
+								{
+									"key": "username",
+									"value": "test",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "123456",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3000/sign/signUp",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"sign",
+								"signUp"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "判断值是否存在",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "type",
+									"value": "username",
+									"type": "text"
+								},
+								{
+									"key": "data",
+									"value": "123213",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3000/sign/judge",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"sign",
+								"judge"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "用户登录",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "data",
+									"value": "502031948@qq.com",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "123456",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3000/sign/signIn",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"sign",
+								"signIn"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "token测试",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYwOTM1MGFiMzg2MDYxNzU4MDZkNTMzOCIsInRpbWUiOiIyMDIxLTA1LTA2VDAyOjI0OjA1LjYzN1oiLCJpYXQiOjE2MjAyNjc4NDUsImV4cCI6MTYzMDYzNTg0NX0.t5-v05LzPbGHpWIb9W5Uh8Pm_bfVWz13QHxceLusnRw",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3000/sign/testToken",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"sign",
+								"testToken"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "search",
+			"item": [
+				{
+					"name": "搜索用户",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYwOTM1MGFiMzg2MDYxNzU4MDZkNTMzOCIsInRpbWUiOiIyMDIxLTA1LTA2VDA3OjI2OjAxLjMzMFoiLCJpYXQiOjE2MjAyODU5NjEsImV4cCI6MTYzMDY1Mzk2MX0.VAdX1_v9wNQNXHcBQv5DE36rQtQfycUZfFva7fLLXGw",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "data",
+									"value": "a",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3000/search/user",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"search",
+								"user"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "user",
+			"item": [
+				{
+					"name": "用户信息详情",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYwOTM1MGFiMzg2MDYxNzU4MDZkNTMzOCIsInRpbWUiOiIyMDIxLTA1LTA2VDA5OjQ2OjI1LjAwNFoiLCJpYXQiOjE2MjAyOTQzODUsImV4cCI6MTYzMDY2MjM4NX0._8Ql5sRjNmjDP1SnUxIuzlF4BkT4HAd-cR7R4mE564A",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "id",
+									"value": "60b5e1e47ccd8e628404f66b",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3000/user/detail",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"user",
+								"detail"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "用户信息修改",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYwOTM1MGFiMzg2MDYxNzU4MDZkNTMzOCIsInRpbWUiOiIyMDIxLTA1LTA2VDA5OjQ2OjI1LjAwNFoiLCJpYXQiOjE2MjAyOTQzODUsImV4cCI6MTYzMDY2MjM4NX0._8Ql5sRjNmjDP1SnUxIuzlF4BkT4HAd-cR7R4mE564A",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "id",
+									"value": "609350ab38606175806d5338",
+									"type": "text"
+								},
+								{
+									"key": "type",
+									"value": "mobile",
+									"type": "text"
+								},
+								{
+									"key": "data",
+									"value": "123456",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3000/user/update",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"user",
+								"update"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "带密码修改信息",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYwOTM1YTdlNDZlYmU4NTA0MGU1Zjg1NSIsInRpbWUiOiIyMDIxLTA1LTA4VDA2OjUyOjM0LjUwM1oiLCJpYXQiOjE2MjA0NTY3NTQsImV4cCI6MTYzMDgyNDc1NH0.CMnd1v7cCGW63u9mVsIS8UY1yVyILN0oOisHDfWDN-E",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "id",
+									"value": "60935a7e46ebe85040e5f855",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "545400",
+									"type": "text"
+								},
+								{
+									"key": "type",
+									"value": "mail",
+									"type": "text"
+								},
+								{
+									"key": "data",
+									"value": "502031948@126.com",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3000/user/update",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"user",
+								"update"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "friend",
+			"item": [
+				{
+					"name": "好友申请",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYwOTM1MGFiMzg2MDYxNzU4MDZkNTMzOCIsInRpbWUiOiIyMDIxLTA1LTA4VDA3OjA4OjE2LjIzOVoiLCJpYXQiOjE2MjA0NTc2OTYsImV4cCI6MTYzMDgyNTY5Nn0.jgfeV1hFK_QK5ebgROQEF6LyZPQtBdjq-VZHlpZTwKQ",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "uid",
+									"value": "60b5e1e47ccd8e628404f66b",
+									"type": "text"
+								},
+								{
+									"key": "fid",
+									"value": "60b7385f9b6f8406883c718a",
+									"type": "text"
+								},
+								{
+									"key": "message",
+									"value": "admin向test发送好友请求",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3000/friend/apply",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"friend",
+								"apply"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "接受好友申请",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYwOTM1MGFiMzg2MDYxNzU4MDZkNTMzOCIsInRpbWUiOiIyMDIxLTA1LTE0VDAzOjUzOjIzLjA3MVoiLCJpYXQiOjE2MjA5NjQ0MDMsImV4cCI6MTYzMTMzMjQwM30.BwWtA81oUyMR5tmrXhG-y6kyiKhCLz-qmoFkVtHgwco",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "uid",
+									"value": "60b7385f9b6f8406883c718a",
+									"type": "text"
+								},
+								{
+									"key": "fid",
+									"value": "60b734d5bc3a6553348d7b65",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3000/friend/updateState",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"friend",
+								"updateState"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "拒绝/删除好友",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYwOTM1MGFiMzg2MDYxNzU4MDZkNTMzOCIsInRpbWUiOiIyMDIxLTA1LTE0VDAzOjUzOjIzLjA3MVoiLCJpYXQiOjE2MjA5NjQ0MDMsImV4cCI6MTYzMTMzMjQwM30.BwWtA81oUyMR5tmrXhG-y6kyiKhCLz-qmoFkVtHgwco",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "uid",
+									"value": "609350ab38606175806d5338",
+									"type": "text"
+								},
+								{
+									"key": "fid",
+									"value": "60963cae20fb6539b05d32b7",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3000/friend/delete",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"friend",
+								"delete"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "upload",
+			"item": [
+				{
+					"name": "文件上传",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYwOTM1MGFiMzg2MDYxNzU4MDZkNTMzOCIsInRpbWUiOiIyMDIxLTA1LTE0VDAzOjUzOjIzLjA3MVoiLCJpYXQiOjE2MjA5NjQ0MDMsImV4cCI6MTYzMTMzMjQwM30.BwWtA81oUyMR5tmrXhG-y6kyiKhCLz-qmoFkVtHgwco",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "url",
+									"value": "user",
+									"type": "text"
+								},
+								{
+									"key": "name",
+									"value": "test",
+									"type": "text"
+								},
+								{
+									"key": "files",
+									"type": "file",
+									"src": "/C:/Users/shamf/Desktop/banner.2263f504.jpg"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3000/files/upload",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"files",
+								"upload"
+							],
+							"query": [
+								{
+									"key": "url",
+									"value": null,
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "home",
+			"item": [
+				{
+					"name": "获取好友列表",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYwOTM1MGFiMzg2MDYxNzU4MDZkNTMzOCIsInRpbWUiOiIyMDIxLTA1LTE0VDAzOjUzOjIzLjA3MVoiLCJpYXQiOjE2MjA5NjQ0MDMsImV4cCI6MTYzMTMzMjQwM30.BwWtA81oUyMR5tmrXhG-y6kyiKhCLz-qmoFkVtHgwco",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "uid",
+									"value": "60b5e1e47ccd8e628404f66b",
+									"type": "text"
+								},
+								{
+									"key": "state",
+									"value": "0",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3000/home/getfriend",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"home",
+								"getfriend"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "获取好友最后信息",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYwOTM1MGFiMzg2MDYxNzU4MDZkNTMzOCIsInRpbWUiOiIyMDIxLTA1LTE0VDAzOjUzOjIzLjA3MVoiLCJpYXQiOjE2MjA5NjQ0MDMsImV4cCI6MTYzMTMzMjQwM30.BwWtA81oUyMR5tmrXhG-y6kyiKhCLz-qmoFkVtHgwco",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "uid",
+									"value": "609350ab38606175806d5338",
+									"type": "text"
+								},
+								{
+									"key": "fid",
+									"value": "60963cae20fb6539b05d32b7",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3000/home/getlastmsg",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"home",
+								"getlastmsg"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "获取好友未读消息数",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYwOTM1MGFiMzg2MDYxNzU4MDZkNTMzOCIsInRpbWUiOiIyMDIxLTA1LTE0VDAzOjUzOjIzLjA3MVoiLCJpYXQiOjE2MjA5NjQ0MDMsImV4cCI6MTYzMTMzMjQwM30.BwWtA81oUyMR5tmrXhG-y6kyiKhCLz-qmoFkVtHgwco",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "uid",
+									"value": "609350ab38606175806d5338",
+									"type": "text"
+								},
+								{
+									"key": "fid",
+									"value": "60963cae20fb6539b05d32b7",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3000/home/unreadmsg",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"home",
+								"unreadmsg"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "好友未读消息已读",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYwOTM1MGFiMzg2MDYxNzU4MDZkNTMzOCIsInRpbWUiOiIyMDIxLTA1LTE0VDAzOjUzOjIzLjA3MVoiLCJpYXQiOjE2MjA5NjQ0MDMsImV4cCI6MTYzMTMzMjQwM30.BwWtA81oUyMR5tmrXhG-y6kyiKhCLz-qmoFkVtHgwco",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "uid",
+									"value": "609350ab38606175806d5338",
+									"type": "text"
+								},
+								{
+									"key": "fid",
+									"value": "60963cae20fb6539b05d32b7",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3000/home/updatemsg",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"home",
+								"updatemsg"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "chat",
+			"item": [
+				{
+					"name": "获取聊天信息",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYwOTM1MGFiMzg2MDYxNzU4MDZkNTMzOCIsInRpbWUiOiIyMDIxLTA1LTA4VDA3OjA4OjE2LjIzOVoiLCJpYXQiOjE2MjA0NTc2OTYsImV4cCI6MTYzMDgyNTY5Nn0.jgfeV1hFK_QK5ebgROQEF6LyZPQtBdjq-VZHlpZTwKQ",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "uid",
+									"value": "60b5e1e47ccd8e628404f66b",
+									"type": "text"
+								},
+								{
+									"key": "fid",
+									"value": "60b734d5bc3a6553348d7b65",
+									"type": "text"
+								},
+								{
+									"key": "currentPage",
+									"value": "0",
+									"type": "text"
+								},
+								{
+									"key": "pageSize",
+									"value": "10",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3000/chat/getmsg",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"chat",
+								"getmsg"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
